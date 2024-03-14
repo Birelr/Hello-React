@@ -1,5 +1,6 @@
 import './App.css';
 import Counter from './components/Counter';
+import Stateuser from './components/Stateuser';
 
 // import Header from './components/Header';
 // import User from './components/User'
@@ -16,7 +17,8 @@ function App() {
       <User name="Rojhat" surname= "Birel" age={25} /> 
       <User name="Ali" surname= {"Veli"} age={55} />
       <User name="Ali" age={55} /> */}
-      <Counter />  
+      <Counter />
+      <Stateuser />  
 
 
     </div>

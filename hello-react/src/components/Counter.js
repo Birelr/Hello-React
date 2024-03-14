@@ -8,6 +8,9 @@ function Counter() {
     const decrement = () => {
         setCount(count - 1);
       };
+    const reset = () => {
+        setCount(0);
+      };
   return (
     <div>
         <div>
@@ -16,10 +19,13 @@ function Counter() {
                 <div>
                     Değer: {count}
                 </div>
+                <br></br>
                 <button onClick={decrement}>-</button>
                 <button onClick={increment}>+</button>
+                <button onClick={reset}>Reset</button>
             </div>
         </div>
+        <hr></hr>
     </div>
   )
 }
