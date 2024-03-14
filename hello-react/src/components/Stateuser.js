@@ -49,6 +49,9 @@ function Stateuser() {
             </ol>
             <button onClick={updateUsers}>Yeni Kullanıcı Ekle</button>
             </div>
+            <div>
+            <hr></hr>
+            </div>
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import './App.css';
 import Counter from './components/Counter';
+import Form from './components/Form';
 import Stateuser from './components/Stateuser';
 
 // import Header from './components/Header';
@@ -10,6 +11,7 @@ import Stateuser from './components/Stateuser';
 function App() {
   return (
     <div className="App">
+      <Form />  
       
       {/* <Header/>
       <h2>My first React app</h2>
@@ -18,7 +20,8 @@ function App() {
       <User name="Ali" surname= {"Veli"} age={55} />
       <User name="Ali" age={55} /> */}
       <Counter />
-      <Stateuser />  
+      <Stateuser />
+      <Form />  
 
 
     </div>
